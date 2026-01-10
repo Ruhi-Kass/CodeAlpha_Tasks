@@ -1,6 +1,6 @@
 # Object Detection and Tracking App
 
-This is a Python-based application for real-time object detection and tracking using YOLOv8 (from Ultralytics) and OpenCV. It supports input from a webcam or video files, draws bounding boxes with class labels, confidence scores, and persistent tracking IDs, and features a modern GUI built with CustomTkinter in a purple and white theme.
+This is a Python-based application for real-time object detection and tracking using YOLOv8 (from Ultralytics) and OpenCV. It supports input from a webcam or video files, draws bounding boxes with class labels, confidence scores, and persistent tracking IDs, and features a modern GUI built with CustomTkinter in a blue and white default theme.
 
 The app is modularized for easy maintenance and extension, fulfilling the task requirements: setup real-time video input, use a pre-trained model (YOLO), process frames for detection, apply tracking (using YOLO's built-in ByteTrack, similar to SORT/Deep SORT), and display output with labels and IDs.
 
@@ -75,6 +75,7 @@ Example output: For a car video, expect labels like "car 0.85 ID:1" with boxes t
 
 ## License
 MIT License — Feel free to use, modify, and distribute.
+
 
 
 
