@@ -52,14 +52,12 @@ Example output: For a car video, expect labels like "car 0.85 ID:1" with boxes t
 - `main.py`: GUI setup and main processing loop.
 - `detector.py`: Handles YOLOv8 detection and tracking.
 - `video_source.py`: Manages video input from webcam or files.
-- `theme.json`: Custom purple/white theme for CustomTkinter.
-- `requirements.txt`: List of dependencies.
+- `theme.json`: Custom blue/white theme for CustomTkinter.
 - `README.md`: This documentation.
 
 ## Customization
 - **Change YOLO Model**: In `detector.py`, update `model_path` to `'yolov8m.pt'` (medium) or `'yolov8l.pt'` (large) for better accuracy (auto-downloads).
 - **Adjust Confidence**: In `detector.py`, change `conf=0.5` to higher (e.g., 0.7) for fewer but more accurate detections.
-- **Theme**: Edit colors in `theme.json` (e.g., purples like #8E24AA).
 - **Resize**: Modify frame resizing in `detector.py` for performance (e.g., to (480, 480) on slower machines).
 
 ## Troubleshooting
@@ -77,5 +75,6 @@ Example output: For a car video, expect labels like "car 0.85 ID:1" with boxes t
 
 ## License
 MIT License — Feel free to use, modify, and distribute. See [LICENSE](LICENSE) for details.
+
 
 
