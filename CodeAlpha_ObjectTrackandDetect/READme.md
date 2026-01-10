@@ -74,7 +74,8 @@ Example output: For a car video, expect labels like "car 0.85 ID:1" with boxes t
 - GUI is basic and non-resizable for simplicity.
 
 ## License
-MIT License — Feel free to use, modify, and distribute. See [LICENSE](LICENSE) for details.
+MIT License — Feel free to use, modify, and distribute.
+
 
 
 
