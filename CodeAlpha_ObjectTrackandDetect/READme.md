@@ -30,11 +30,6 @@ The app is modularized for easy maintenance and extension, fulfilling the task r
    source venv/bin/activate
    ```
 
-. Install dependencies:
-   ```
-   pip install -r requirements.txt
-   ```
-
 . (Optional) Pre-download YOLO model:
    - Run `python download_model.py` (if provided) or let it auto-download on first run.
 
@@ -82,4 +77,5 @@ Example output: For a car video, expect labels like "car 0.85 ID:1" with boxes t
 
 ## License
 MIT License — Feel free to use, modify, and distribute. See [LICENSE](LICENSE) for details.
+
 
