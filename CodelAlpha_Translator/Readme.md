@@ -1,4 +1,4 @@
-# CodeAlpha Translator
+# Offline Language Translator
 
 ## Overview
 The CodeAlpha Translator is an offline language translation application developed as part of my internship at CodeAlpha. This project leverages the Argos Translate library to facilitate translations between multiple languages. It features a user-friendly interface built with `tkinter`, allowing users to easily input text, select source and target languages, and receive translations.
@@ -14,6 +14,7 @@ The CodeAlpha Translator is an offline language translation application develope
 - tkinter: For creating the graphical user interface (GUI).
 - Argos Translate: A powerful translation library utilized for performing the actual translations.
 - Threading: To ensure that the application remains responsive during translation tasks.
+
 
 
 
