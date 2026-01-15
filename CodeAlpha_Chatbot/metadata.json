@@ -1,0 +1,7 @@
+{
+  "name": "Nous Bot",
+  "description": "A high-fidelity FAQ chatbot application with a friendly mascot, featuring semantic intent matching and a polished UI based on design specifications.",
+  "requestFramePermissions": [
+    "microphone"
+  ]
+}
