@@ -2,6 +2,8 @@
 
 Nous Bot is a high-performance FAQ and technical assistant designed for developers and power users. It combines a structured internal knowledge base with real-time web retrieval to provide accurate, contextual answers to technical queries.
 
+
+
 ## 🚀 What it is & How it works
 
 Nous Bot acts as a bridge between static documentation and interactive troubleshooting. 
@@ -24,14 +26,15 @@ Nous Bot acts as a bridge between static documentation and interactive troublesh
 - **Triple-Theme System**: Switch between **Sky** (Professional), **Midnight** (OLED Black), and **Emerald** (Eco) visual styles.
 - **Mobile-First Design**: A high-fidelity, fluid interface designed to feel like a native app on any device.
 
-## 💻 Tech Stack
+## � Tech Stack
 
 - **Frontend**: React 19 (Modern ES6+ Architecture)
 - **Styling**: Tailwind CSS (Utility-first responsive layout)
-- **Intelligence**: Integrated via the Google GenAI SDK for retrieval and synthesis.
+- **Intelligence**: Integrated via the Google GenAI SDK and DeepSeek API for retrieval and synthesis.
 
 ## ⚙️ Setup
 
 To use the live features, ensure an API key is provided via the environment variables (`process.env.API_KEY`). The application will gracefully handle missing keys by prompting for setup.
 
+---
 *Nous Bot — Efficiency through conversational logic.*
