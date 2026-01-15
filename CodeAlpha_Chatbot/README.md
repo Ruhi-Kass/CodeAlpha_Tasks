@@ -2,7 +2,6 @@
 
 Nous Bot is a high-performance FAQ and technical assistant designed for developers and power users. It combines a structured internal knowledge base with real-time web retrieval to provide accurate, contextual answers to technical queries.
 
-!\
 ## 🚀 What it is & How it works
 
 Nous Bot acts as a bridge between static documentation and interactive troubleshooting. 
