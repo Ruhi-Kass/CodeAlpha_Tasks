@@ -3,7 +3,7 @@ import { BotIcon } from '../components/BotIcon';
 import { Message, ThemeProps } from '../types';
 import { getLLMResponse } from '../services/llmService';
 
-// Tell TypeScript crypto.randomUUID exists (fixes TS error)
+
 declare const crypto: { randomUUID: () => string };
 
 const ApiKeyModal: React.FC<{
@@ -53,7 +53,7 @@ const ApiKeyModal: React.FC<{
   );
 };
 
-// ── Your SyntaxHighlighter (unchanged but safe) ──
+
 const SyntaxHighlighter: React.FC<{ code: string; lang?: string; isDarkMode: boolean }> = ({ code, lang, isDarkMode }) => {
   const [copied, setCopied] = useState(false);
 
@@ -92,7 +92,7 @@ const SyntaxHighlighter: React.FC<{ code: string; lang?: string; isDarkMode: boo
   );
 };
 
-// ── MessageContent with safe sources handling ──
+
 const MessageContent: React.FC<{ text: string; sources?: any[]; isDarkMode: boolean }> = ({ text, sources, isDarkMode }) => {
   const parts = text.split(/(```[\s\S]*?```|`.*?`)/g);
 
@@ -226,7 +226,7 @@ export const Chat: React.FC<ChatProps> = ({
     try {
       const result = await getLLMResponse(query, messages);
 
-      // Safely handle sources (make sure it's always array or undefined)
+      // (make sure it's always array or undefined)
       const safeSources = Array.isArray(result.sources) ? result.sources : undefined;
 
       setMessages(prev => [...prev, {
