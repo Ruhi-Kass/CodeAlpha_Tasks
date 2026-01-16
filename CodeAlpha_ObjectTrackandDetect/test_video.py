@@ -1,6 +1,5 @@
 import cv2
 
-# Use FULL PATH, e.g., r"C:\Users\Ruhama\Desktop\CodeAlpha Internship\CodeAlpha_ObjectTrackandDetect\car-detection.mp4"
 video_path = r"full\path\to\your\car-detection.mp4"  # Replace with actual path (use r" for raw string on Windows)
 
 cap = cv2.VideoCapture(video_path)
@@ -23,4 +22,5 @@ while True:
         break
 
 cap.release()
+
 cv2.destroyAllWindows()
