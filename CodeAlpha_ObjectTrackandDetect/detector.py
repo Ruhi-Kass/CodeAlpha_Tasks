@@ -1,4 +1,4 @@
-# detector.py
+
 from ultralytics import YOLO
 import cv2
 
@@ -35,15 +35,16 @@ class ObjectDetector:
         results = self.model.track(
             source=resized_frame,
             persist=True,      # Maintain tracking IDs across frames
-            conf=0.7,          # Only show confident detections (fixes "car → cell phone")
+            conf=0.7,          
             imgsz=640,
             verbose=False
         )
         
-        # Use Ultralytics' built-in plot() — draws beautiful purple boxes, labels, conf, and IDs
+      
         annotated_small = results[0].plot()
         
         # Resize back to original frame size for proper display in GUI
         annotated_frame = cv2.resize(annotated_small, (orig_w, orig_h))
         
+
         return annotated_frame
