@@ -1,4 +1,4 @@
-# video_source.py
+
 import cv2
 
 class VideoSource:
@@ -47,4 +47,5 @@ class VideoSource:
     
     def get_size(self):
         """Returns (width, height) of the video."""
+
         return (int(self.cap.get(cv2.CAP_PROP_FRAME_WIDTH)), int(self.cap.get(cv2.CAP_PROP_FRAME_HEIGHT)))
