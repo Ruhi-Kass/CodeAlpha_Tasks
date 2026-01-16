@@ -49,3 +49,4 @@ class VideoSource:
         """Returns (width, height) of the video."""
 
         return (int(self.cap.get(cv2.CAP_PROP_FRAME_WIDTH)), int(self.cap.get(cv2.CAP_PROP_FRAME_HEIGHT)))
+
